@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions_01</title>
+    <style>
+        body form
+        {
+            margin-top: 48px;
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            gap: 24px;
+        }
+
+        body form button
+        {
+            width: 200px;
+        }
+        
+    </style>
+</head>
+<body>
+    <form onsubmit="return false">
+        <div>
+            <label for="alter1">Alter Person 1</label>
+            <input type="number" name="alter1" class="alter1" id="alter1">
+        </div>
+        <div>
+            <label for="alter2">Alter Person 2</label>
+            <input type="number" name="alter2" class="alter2" id="alter2">
+        </div>
+        <!-- <input type="submit" value="Differenz Ausgeben" onclick="diffCalculator()"> -->
+        <button onclick="diffCalculator()">Differenz Ausgeben</button>
+    </form>
+    <p id="answer"></p>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

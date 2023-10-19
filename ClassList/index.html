@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions_01</title>
+    <style>
+
+        h1 
+        {
+            font-size: 4rem;
+        }
+        
+        .headlineStyle
+        {
+            color: rgb(255, 255, 255);
+            background-color: rgb(0, 8, 255);
+            padding: 10px 30px;
+            font-family: sans-serif;
+            font-size: 4rem;
+        }
+
+        .listStyle
+        {
+            color: white;
+            background-color: rgb(252, 76, 76);
+            font-family: sans-serif;
+            font-weight: 100;
+            list-style: decimal;
+            padding: 10px 45px;
+        }
+
+        .headlineStyle2
+        {
+            color: #0008ff;
+            background-color: #ffffff;
+            font-family: sans-serif;
+            font-size: 4rem;
+            padding: 10px 30px;
+            
+        }
+
+        .listStyle2
+        {
+            color: #fc4c4c;
+            background-color: #ffffff;
+            font-family: sans-serif;
+            font-weight: 100;
+            padding: 6px 45px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1 id="main_headline"">Meine Bucket-List</h1>
+    <ul id="bucketList">
+        <li>Nächstes Jahr nach Vietnam Reisen</li>
+        <li>Programmieren lernen</li>
+        <li>Schwimmen lernen</li>
+    </ul>
+    <button onclick="changeStyle()" id="styleButton">StyleOne</button>
+    <button onclick="changeStyle2()" id="styleButton2">StyleTwo</button>
+    <button onclick="toggleStyle()" id="toggleButton">StyleToggle</button>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
