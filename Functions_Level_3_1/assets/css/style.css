@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+body h1 {
+    font-size: 2.5rem;
+}
+
+div div {
+    transition: all 0.4s linear;
+}
+
+.buttons_all {
+    display: flex;
+    gap: 40px;
+}
+
+.button_animation {
+    animation: rotation 20s linear infinite normal;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+div div:hover {
+    box-shadow: 0px 0px 10px 0px #1f1f208f;
+    border-inline: 1px solid white;
+    transform-origin: center;
+}
+
+.button1 {
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    border: 1px black solid;
+    background: linear-gradient(45deg, #1ca141 50%, #9c459c 50%);
+}
+
+.button2 {
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    border: 1px black solid;
+    background: linear-gradient(45deg, #45424a 50%, #d3c970 50%);
+}
+
+.button3 {
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    border: 1px black solid;
+    background: linear-gradient(45deg, #1f1f20 50%, #cd7b1e 50%);
+}
+
+.button4 {
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    border: 1px black solid;
+    background: linear-gradient(45deg, #0120bb 50%, #11baf2 50%);
+}
+
+.firstStyle {
+    background-color: #1ca141;
+    color: #9c459c;
+}
+
+.secondStyle {
+    background-color: #45424a;
+    color: #d3c970;
+}
+
+.thirdStyle {
+    background-color: #1f1f20;
+    color: #cd7b1e;
+}
+
+.fourthStyle {
+    background-color: #0120bb;
+    color: #11baf2;
+}
